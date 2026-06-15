@@ -30,6 +30,8 @@ export function HeroSection() {
           <h1 className="mt-6 font-serif text-4xl font-bold leading-tight text-balance text-foreground sm:text-5xl md:text-6xl">
             Advogado Criminalista em{" "}
             <span className="text-primary">Maringá</span>
+            {" | "}
+            <span className="text-muted-foreground">Atendimento 24 Horas</span>
           </h1>
 
           <p className="mt-5 max-w-xl text-pretty text-base leading-relaxed text-muted-foreground md:text-lg">
