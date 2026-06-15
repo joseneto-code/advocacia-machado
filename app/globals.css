@@ -89,23 +89,23 @@
 
 .dark {
   color-scheme: dark;
-  --background: oklch(0.13 0 0);
-  --foreground: oklch(0.97 0 0);
-  --card: oklch(0.17 0 0);
-  --card-foreground: oklch(0.97 0 0);
-  --popover: oklch(0.17 0 0);
-  --popover-foreground: oklch(0.97 0 0);
+  --background: oklch(0.22 0.004 75);
+  --foreground: oklch(0.97 0.004 75);
+  --card: oklch(0.27 0.006 75);
+  --card-foreground: oklch(0.97 0.004 75);
+  --popover: oklch(0.27 0.006 75);
+  --popover-foreground: oklch(0.97 0.004 75);
   --primary: oklch(0.8 0.13 84);
   --primary-foreground: oklch(0.13 0 0);
-  --secondary: oklch(0.24 0 0);
-  --secondary-foreground: oklch(0.97 0 0);
-  --muted: oklch(0.24 0 0);
-  --muted-foreground: oklch(0.72 0.01 80);
+  --secondary: oklch(0.32 0.008 75);
+  --secondary-foreground: oklch(0.97 0.004 75);
+  --muted: oklch(0.32 0.008 75);
+  --muted-foreground: oklch(0.78 0.015 80);
   --accent: oklch(0.8 0.13 84);
   --accent-foreground: oklch(0.13 0 0);
   --destructive: oklch(0.55 0.2 27);
-  --border: oklch(0.8 0.06 84 / 14%);
-  --input: oklch(1 0 0 / 15%);
+  --border: oklch(0.8 0.06 84 / 20%);
+  --input: oklch(1 0 0 / 18%);
   --ring: oklch(0.8 0.13 84);
   --gold: oklch(0.8 0.13 84);
   --gold-foreground: oklch(0.13 0 0);
