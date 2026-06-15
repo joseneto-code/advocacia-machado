@@ -1,7 +1,7 @@
 import Image from "next/image"
 import { GraduationCap, Award, Users, BookOpen } from "lucide-react"
 import { WhatsAppIcon } from "@/components/whatsapp-icon"
-import { whatsappLink } from "@/lib/site"
+import { basePath, whatsappLink } from "@/lib/site"
 
 const credentials = [
   {
@@ -29,7 +29,7 @@ export function AboutSection() {
         <div className="relative order-2 lg:order-1">
           <div className="overflow-hidden rounded-3xl border border-white/10">
             <Image
-              src="/images/dr-henrique-office.jpg"
+              src={`${basePath}/images/dr-henrique-office.jpg`}
               alt="Dr. Henrique Machado em seu escritório de advocacia"
               width={800}
               height={1000}

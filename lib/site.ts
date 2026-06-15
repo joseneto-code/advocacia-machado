@@ -1,3 +1,6 @@
+// Deve corresponder ao "basePath" em next.config.mjs (necessário para GitHub Pages)
+export const basePath = "/advocacia-machado"
+
 export const site = {
   name: "Advocacia Machado",
   lawyer: "Dr. Henrique Machado",

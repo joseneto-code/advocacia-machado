@@ -1,6 +1,6 @@
 import Image from "next/image"
 import { WhatsAppIcon } from "@/components/whatsapp-icon"
-import { whatsappLink } from "@/lib/site"
+import { basePath, whatsappLink } from "@/lib/site"
 
 const navItems = [
   { label: "Atuação", href: "#servicos" },
@@ -15,7 +15,7 @@ export function SiteHeader() {
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4 md:px-6">
         <a href="#inicio" className="flex items-center gap-2">
           <Image
-            src="/images/logo-machado.png"
+            src={`${basePath}/images/logo-machado.png`}
             alt="Advocacia Machado"
             width={48}
             height={48}

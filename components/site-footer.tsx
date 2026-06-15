@@ -1,5 +1,5 @@
 import Image from "next/image"
-import { site } from "@/lib/site"
+import { basePath, site } from "@/lib/site"
 
 export function SiteFooter() {
   return (
@@ -8,7 +8,7 @@ export function SiteFooter() {
         <div className="flex flex-col items-center gap-4 text-center md:flex-row md:justify-between md:text-left">
           <div className="flex items-center gap-3">
             <Image
-              src="/images/logo-machado.png"
+              src={`${basePath}/images/logo-machado.png`}
               alt="Advocacia Machado"
               width={44}
               height={44}

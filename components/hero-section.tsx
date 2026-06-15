@@ -1,7 +1,7 @@
 import Image from "next/image"
 import { ShieldCheck, Clock, Scale } from "lucide-react"
 import { WhatsAppIcon } from "@/components/whatsapp-icon"
-import { whatsappLink, site } from "@/lib/site"
+import { basePath, whatsappLink, site } from "@/lib/site"
 
 export function HeroSection() {
   return (
@@ -10,7 +10,7 @@ export function HeroSection() {
       className="relative flex min-h-[100svh] items-center overflow-hidden pt-16"
     >
       <Image
-        src="/images/dr-henrique-hero.jpg"
+        src={`${basePath}/images/dr-henrique-hero.jpg`}
         alt="Dr. Henrique Machado, advogado criminalista, em sala de tribunal"
         fill
         priority
