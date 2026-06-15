@@ -12,7 +12,7 @@ export function WhatsAppFloat() {
     >
       <WhatsAppIcon className="h-7 w-7" />
       <span className="hidden text-sm font-semibold sm:inline">
-        Fale agora
+        Atendimento 24h
       </span>
       <span className="absolute -right-0.5 -top-0.5 flex h-3 w-3">
         <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#25D366] opacity-75" />

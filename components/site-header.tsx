@@ -6,6 +6,7 @@ const navItems = [
   { label: "Atuação", href: "#servicos" },
   { label: "Sobre", href: "#sobre" },
   { label: "Diferenciais", href: "#diferenciais" },
+  { label: "FAQ", href: "#faq" },
   { label: "Contato", href: "#contato" },
 ]
 
@@ -45,7 +46,7 @@ export function SiteHeader() {
           className="inline-flex items-center gap-2 rounded-full bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground transition-opacity hover:opacity-90"
         >
           <WhatsAppIcon className="h-4 w-4" />
-          <span className="hidden sm:inline">Falar agora</span>
+          <span className="hidden sm:inline">Solicitar Atendimento 24h</span>
         </a>
       </div>
     </header>

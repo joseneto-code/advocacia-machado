@@ -1,6 +1,14 @@
-import { MapPin, Mail } from "lucide-react"
+import { MapPin, Mail, Check } from "lucide-react"
 import { WhatsAppIcon } from "@/components/whatsapp-icon"
 import { whatsappLink, site } from "@/lib/site"
+
+const urgentItems = [
+  "Prisão em flagrante",
+  "Audiência de custódia",
+  "Habeas Corpus",
+  "Defesa Criminal",
+  "Recursos Criminais",
+]
 
 export function ContactSection() {
   return (
@@ -11,12 +19,29 @@ export function ContactSection() {
             Fale conosco
           </span>
           <h2 className="mt-3 font-serif text-3xl font-bold text-balance text-foreground md:text-4xl">
-            Atendimento imediato quando você mais precisa
+            Precisa de um Advogado Criminalista em Maringá?
           </h2>
           <p className="mt-4 text-pretty leading-relaxed text-muted-foreground">
-            Entre em contato agora mesmo. Cada minuto conta em uma defesa
-            criminal.
+            Atendimento imediato para:
           </p>
+          <ul className="mt-4 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm font-medium text-foreground/90">
+            {urgentItems.map((item) => (
+              <li key={item} className="flex items-center gap-2">
+                <Check className="h-4 w-4 shrink-0 text-primary" />
+                {item}
+              </li>
+            ))}
+          </ul>
+
+          <a
+            href={whatsappLink()}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-8 inline-flex items-center justify-center gap-2 rounded-full bg-primary px-7 py-4 text-base font-semibold text-primary-foreground transition-transform hover:scale-[1.02]"
+          >
+            <WhatsAppIcon className="h-5 w-5" />
+            Falar com Advogado Agora
+          </a>
         </div>
 
         <div className="mt-12 grid gap-8 lg:grid-cols-2">

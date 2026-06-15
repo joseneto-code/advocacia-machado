@@ -1,5 +1,15 @@
 import Image from "next/image"
-import { Siren, Gavel, ShieldAlert, Landmark, KeyRound } from "lucide-react"
+import {
+  Siren,
+  Clock,
+  KeyRound,
+  Pill,
+  ShieldAlert,
+  EyeOff,
+  Gavel,
+  Landmark,
+  Unlock,
+} from "lucide-react"
 import { basePath } from "@/lib/site"
 
 const services = [
@@ -10,23 +20,43 @@ const services = [
     highlight: true,
   },
   {
+    icon: Clock,
+    title: "Audiência de Custódia",
+    desc: "Defesa técnica desde o primeiro momento, garantindo seus direitos diante da autoridade judicial.",
+  },
+  {
+    icon: KeyRound,
+    title: "Habeas Corpus",
+    desc: "Medidas urgentes para garantir a liberdade em casos de prisão ilegal ou abusiva.",
+  },
+  {
+    icon: Pill,
+    title: "Tráfico de Drogas",
+    desc: "Defesa criminal estratégica em casos de tráfico, com análise da prova e das circunstâncias da prisão.",
+  },
+  {
+    icon: ShieldAlert,
+    title: "Violência Doméstica",
+    desc: "Atuação técnica e sigilosa em processos de violência doméstica, com foco na defesa dos direitos do acusado.",
+  },
+  {
+    icon: EyeOff,
+    title: "Crimes Sexuais",
+    desc: "Atuação especializada e sigilosa em casos sensíveis, com defesa firme e tecnicamente fundamentada.",
+  },
+  {
     icon: Gavel,
     title: "Tribunal do Júri",
     desc: "Defesa técnica e oratória estratégica em crimes dolosos contra a vida perante o conselho de sentença.",
   },
   {
-    icon: ShieldAlert,
-    title: "Crimes Patrimoniais e Sexuais",
-    desc: "Atuação especializada e sigilosa em casos sensíveis, com defesa firme e tecnicamente fundamentada.",
-  },
-  {
     icon: Landmark,
-    title: "Recursos em Tribunais Superiores",
+    title: "Recursos Criminais",
     desc: "Habeas corpus, recursos especiais e extraordinários junto ao STJ e STF.",
   },
   {
-    icon: KeyRound,
-    title: "Execução Penal e Liberdade",
+    icon: Unlock,
+    title: "Execução Penal",
     desc: "Progressão de regime, livramento condicional e pedidos de liberdade provisória.",
   },
 ]
@@ -55,11 +85,12 @@ export function ServicesSection() {
             Áreas de atuação
           </span>
           <h2 className="mt-3 font-serif text-3xl font-bold text-balance text-foreground md:text-4xl">
-            Atuação Especializada em Direito Penal
+            Atuação em Casos Criminais
           </h2>
           <p className="mt-4 text-pretty leading-relaxed text-muted-foreground">
-            Defesa completa em todas as fases do processo criminal, com
-            estratégia personalizada para cada caso.
+            Como advogado criminalista, ofereço defesa criminal completa em
+            todas as fases do processo, com estratégia personalizada para
+            cada caso.
           </p>
         </div>
 

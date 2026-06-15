@@ -28,14 +28,14 @@ export function HeroSection() {
           </span>
 
           <h1 className="mt-6 font-serif text-4xl font-bold leading-tight text-balance text-foreground sm:text-5xl md:text-6xl">
-            Defesa Criminal em{" "}
+            Advogado Criminalista em{" "}
             <span className="text-primary">Maringá</span>
           </h1>
 
           <p className="mt-5 max-w-xl text-pretty text-base leading-relaxed text-muted-foreground md:text-lg">
-            Protegendo sua liberdade com autoridade. Atendimento 24h para
-            prisões em flagrante, audiências de custódia e defesas complexas.
-            Mais de 15 anos de experiência na área penal.
+            Atendimento imediato para prisão em flagrante, audiência de
+            custódia, habeas corpus e defesa criminal. Mais de 15 anos de
+            experiência na área penal.
           </p>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -46,7 +46,7 @@ export function HeroSection() {
               className="inline-flex w-full items-center justify-center gap-2 rounded-full bg-[#25D366] px-7 py-4 text-base font-semibold text-black shadow-lg shadow-[#25D366]/30 transition-transform hover:scale-[1.02] sm:w-auto"
             >
               <WhatsAppIcon className="h-5 w-5" />
-              Falar com Especialista agora
+              Falar com Advogado Criminalista
             </a>
           </div>
 

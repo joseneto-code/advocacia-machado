@@ -1,24 +1,28 @@
 import Image from "next/image"
-import { GraduationCap, Award, Users, BookOpen } from "lucide-react"
+import { Award, Clock, Siren, Lock, Scale } from "lucide-react"
 import { WhatsAppIcon } from "@/components/whatsapp-icon"
 import { basePath, whatsappLink } from "@/lib/site"
 
 const credentials = [
   {
-    icon: GraduationCap,
-    text: "Pós-graduação em Ciências Penais pela Universidade Estadual de Maringá (UEM).",
-  },
-  {
-    icon: BookOpen,
-    text: "Especialização internacional em programa da HarvardX.",
-  },
-  {
-    icon: Users,
-    text: "Presidência de comissões na OAB Subseção Maringá.",
-  },
-  {
     icon: Award,
-    text: "Mais de 15 anos de experiência exclusiva na área penal.",
+    text: "Mais de 15 anos de atuação exclusiva em Direito Criminal.",
+  },
+  {
+    icon: Clock,
+    text: "Atendimento 24 horas para emergências criminais.",
+  },
+  {
+    icon: Siren,
+    text: "Atuação em flagrantes e audiências de custódia.",
+  },
+  {
+    icon: Lock,
+    text: "Atendimento sigiloso e personalizado.",
+  },
+  {
+    icon: Scale,
+    text: "Defesa estratégica em todas as fases do processo.",
   },
 ]
 
@@ -74,7 +78,7 @@ export function AboutSection() {
             className="mt-8 inline-flex w-full items-center justify-center gap-2 rounded-full bg-primary px-6 py-3.5 text-sm font-semibold text-primary-foreground transition-transform hover:scale-[1.02] sm:w-auto"
           >
             <WhatsAppIcon className="h-4 w-4" />
-            Agendar uma consulta
+            Falar com Advogado Criminalista
           </a>
         </div>
       </div>

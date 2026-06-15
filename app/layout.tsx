@@ -13,11 +13,11 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: 'Defesa Criminal em Maringá | Dr. Henrique Machado - Advogado Criminalista',
+    default: 'Advogado Criminalista em Maringá | Atendimento 24 Horas - Dr. Henrique Machado',
     template: '%s | Advocacia Machado',
   },
   description:
-    'Advogado criminalista em Maringá-PR especializado em defesa criminal estratégica. Atendimento 24h para prisões em flagrante, audiências de custódia e defesas complexas. OAB/PR 63.160.',
+    'Advogado criminalista em Maringá-PR. Atendimento imediato para prisão em flagrante, audiência de custódia, habeas corpus e defesa criminal. Mais de 15 anos de experiência na área penal. OAB/PR 63.160.',
   keywords: [
     'advogado criminalista Maringá',
     'defesa criminal Maringá',
@@ -38,9 +38,9 @@ export const metadata: Metadata = {
     locale: 'pt_BR',
     url: site.url,
     siteName: site.name,
-    title: 'Defesa Criminal em Maringá | Dr. Henrique Machado',
+    title: 'Advogado Criminalista em Maringá | Atendimento 24 Horas',
     description:
-      'Defesa criminal estratégica e especializada em Maringá-PR. Atendimento 24h para prisões em flagrante, audiências de custódia e defesas complexas. OAB/PR 63.160.',
+      'Atendimento imediato para prisão em flagrante, audiência de custódia, habeas corpus e defesa criminal em Maringá-PR. OAB/PR 63.160.',
     images: [
       {
         url: '/images/dr-henrique-hero.jpg',
@@ -52,9 +52,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Defesa Criminal em Maringá | Dr. Henrique Machado',
+    title: 'Advogado Criminalista em Maringá | Atendimento 24 Horas',
     description:
-      'Advogado criminalista em Maringá-PR. Atendimento 24h para prisões em flagrante, audiências de custódia e defesas complexas.',
+      'Atendimento imediato para prisão em flagrante, audiência de custódia, habeas corpus e defesa criminal em Maringá-PR.',
     images: ['/images/dr-henrique-hero.jpg'],
   },
   robots: {
