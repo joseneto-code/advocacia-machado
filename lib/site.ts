@@ -11,7 +11,7 @@ export const site = {
   phoneDisplay: "(44) 99101-2343",
   whatsappMessage:
     "Olá Dr. Henrique, preciso de orientação jurídica criminal urgente.",
-  email: "contato@advocaciamachado.adv.br",
+  email: "advocaciamachado.mga@gmail.com",
   address: {
     line1: "Rua Basílio Saltchuk, nº 762, sobreloja 05",
     line2: "Novo Centro, Maringá - PR",
