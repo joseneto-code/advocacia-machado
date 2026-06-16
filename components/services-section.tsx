@@ -68,7 +68,7 @@ export function ServicesSection() {
       className="relative overflow-hidden border-t border-white/5 py-20 md:py-28"
     >
       <Image
-        src={`${basePath}/images/dr-henrique-office.jpg`}
+        src={`${basePath}/images/dr-henrique-office.png`}
         alt=""
         fill
         aria-hidden="true"

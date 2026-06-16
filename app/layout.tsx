@@ -43,7 +43,7 @@ export const metadata: Metadata = {
       'Atendimento imediato para prisão em flagrante, audiência de custódia, habeas corpus e defesa criminal em Maringá-PR. OAB/PR 63.160.',
     images: [
       {
-        url: '/images/dr-henrique-hero.jpg',
+        url: '/images/dr-henrique-hero.png',
         width: 1200,
         height: 630,
         alt: 'Dr. Henrique Machado, advogado criminalista em Maringá',
@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     title: 'Advogado Criminalista em Maringá | Atendimento 24 Horas',
     description:
       'Atendimento imediato para prisão em flagrante, audiência de custódia, habeas corpus e defesa criminal em Maringá-PR.',
-    images: ['/images/dr-henrique-hero.jpg'],
+    images: ['/images/dr-henrique-hero.png'],
   },
   robots: {
     index: true,
@@ -76,7 +76,7 @@ const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Attorney',
   name: site.lawyer,
-  image: `${site.url}/images/dr-henrique-hero.jpg`,
+  image: `${site.url}/images/dr-henrique-hero.png`,
   url: site.url,
   telephone: `+${site.whatsapp}`,
   email: site.email,
