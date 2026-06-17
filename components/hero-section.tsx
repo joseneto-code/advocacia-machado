@@ -10,7 +10,7 @@ export function HeroSection() {
       className="relative flex min-h-[100svh] items-center overflow-hidden pt-16"
     >
       <Image
-        src={`${basePath}/images/dr-henrique-hero.png`}
+        src={`${basePath}/images/dr-henrique-hero.jpg`}
         alt="Dr. Henrique Machado, advogado criminalista, em sala de tribunal"
         fill
         priority

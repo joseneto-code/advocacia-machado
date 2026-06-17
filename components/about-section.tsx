@@ -33,7 +33,7 @@ export function AboutSection() {
         <div className="relative order-2 lg:order-1">
           <div className="overflow-hidden rounded-3xl border border-white/10">
             <Image
-              src={`${basePath}/images/dr-henrique-office.png`}
+              src={`${basePath}/images/dr-henrique-office.jpg`}
               alt="Dr. Henrique Machado em seu escritório de advocacia"
               width={800}
               height={1000}
