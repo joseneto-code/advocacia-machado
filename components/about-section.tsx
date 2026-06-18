@@ -37,7 +37,7 @@ export function AboutSection() {
               alt="Dr. Henrique Machado em seu escritório de advocacia"
               width={800}
               height={1000}
-              className="h-full w-full object-cover"
+              className="h-full w-full scale-[1.18] object-cover object-[center_25%]"
             />
           </div>
         </div>
