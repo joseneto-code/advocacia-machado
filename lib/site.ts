@@ -1,11 +1,11 @@
-// Deve corresponder ao "basePath" em next.config.mjs (necessário para GitHub Pages)
-export const basePath = "/advocacia-machado"
+// Deve corresponder ao "basePath" em next.config.mjs.
+export const basePath = "/advogado-criminal"
 
 export const site = {
   name: "Advocacia Machado",
   lawyer: "Dr. Henrique Machado",
   oab: "OAB/PR 63.160",
-  url: "https://www.advocaciamachado.adv.br",
+  url: "https://henriquemachado.adv.br/advogado-criminal",
   // Telefone usado para chamadas e WhatsApp (formato internacional, sem símbolos)
   whatsapp: "5544991012343",
   phoneDisplay: "(44) 99101-2343",

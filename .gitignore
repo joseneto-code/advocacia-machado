@@ -14,3 +14,20 @@ node_modules
 .next/
 out/
 .DS_Store
+# --- backup: padrões de segurança ---
+node_modules/
+venv/
+.venv/
+__pycache__/
+dist/
+build/
+.env
+.env.*
+!.env.example
+*.log
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+.pnpm-store/

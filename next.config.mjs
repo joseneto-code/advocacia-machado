@@ -1,12 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: '/advocacia-machado',
-  typescript: {
-    ignoreBuildErrors: true,
-  },
+  basePath: '/advogado-criminal',
+  assetPrefix: '/advogado-criminal/',
   images: {
     unoptimized: true,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
   },
 }
 
